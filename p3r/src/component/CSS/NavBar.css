@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Section entière de la navbar*/
+nav {
+    background-color: black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    font-family: Urbanist, Noto Sans JP, "Helvetica Neue", Helvetica, Arial, "\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3", "Hiragino Kaku Gothic ProN", "\30E1\30A4\30EA\30AA", Meiryo, sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 65px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    height: 60px;
+}
+
+.noHover {
+    background-color: transparent;
+}
+
+.hideOnMobile a:hover {
+    background-color: rgb(39, 127, 219)
+}
+
+nav li:first-child{
+    margin-right: auto;    
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 175px;
+    z-index: 999;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+    color: black;
+}
+
+.sidebar a:hover {
+    background-color: rgb(39, 127, 219);
+    color: white;   
+}
+
+.hideOnMobile:hover {
+    transform: translateY(-5px);
+}
+
+.menu-button {
+    display: none;
+}
+
+/* Écran tablette et le menu hamburger apparait et le x pour close*/
+@media(max-width: 800px){
+.hideOnMobile {
+    display: none;   
+}
+
+.menu-button {
+    display: block;
+}
+}
+
+/* Écran mobile */
+@media(max-width: 500px) {
+.sidebar {
+    width: 100%;
+}
+
+}

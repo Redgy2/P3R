@@ -1,0 +1,93 @@
+.marginTop {
+    margin-top: 100px;
+}
+
+.marginTop2 {
+    margin-top: 800px;
+}
+
+.gameplay {
+    margin: 100px auto;  
+}
+
+.dlife {
+    margin: 450px auto;
+}
+
+.tartarus {
+    margin: 100px auto;  
+}
+
+.velvet {
+    margin: 980px auto;
+}
+
+.imgCaroussel {
+    width: 55%;
+    float: left;
+}
+
+.imgDroite {
+    width: 55%;
+    float: right;
+}
+
+.carousselDroite .slider-wrapper {
+    width: 90%;
+    float: right;
+} 
+
+.carousselDroite .control-dots .dot {
+    display: none;
+} 
+
+.caroussel .slider-wrapper {
+    width: 90%;
+    float: left;
+}
+
+.carousel .control-dots .dot  { 
+    float: inline-start;
+}
+
+.carousel-inner {
+    margin-bottom:50px;
+ }
+
+.combatTitre {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.gameplayText {
+    float: right;
+    width: 45%;
+    text-align: center;
+}
+
+.combatText {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.dlifeText {
+    float: left;
+    width: 45%;
+    text-align: center; 
+}
+
+@media(max-width: 1080px){
+
+.combatText {
+    font-size: 16px;
+    margin: auto;
+}
+}
+
+@media(max-width: 500px) {
+    .combatTitre {
+        font-size: 42px;
+        margin-bottom: 10px;
+    } 
+}
+    

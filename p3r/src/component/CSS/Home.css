@@ -1,0 +1,115 @@
+.bg-img {
+    min-height: 100vh;
+    background-image: url(../Images/answer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: bisque;
+}
+
+.titre {
+    margin-top: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.introduction {
+    margin: 150px auto;
+    width: 80%;   
+}
+
+.combat {
+    margin: 150px auto;
+    width: 80%; 
+}
+
+.introTitre {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.introImg { 
+    max-width: 500px; 
+    float: left; 
+    margin-right: 15px;
+}
+
+.combatImg {
+    max-width: 500px;
+    float: right;
+    margin-left: 15px;
+}
+
+.btn {
+    margin: 28px 0 0;
+    width: 287px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(39, 127, 219);
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+
+.sees {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-slide {
+    padding-top: 30px;
+}
+
+.carousel .slider-wrapper {
+    width: 25%;
+}
+
+.carousel .thumb {
+    width: 5%;
+    height: 100px;
+}
+
+.carousel {
+    text-align: center;
+}
+
+.persona {
+    margin: 150px auto;
+    width: 80%;   
+}
+
+
+
+.evoker {
+    max-width: 500px; 
+    float: left; 
+    margin-right: 15px;
+}
+
+@media(max-width: 1080px){
+    .introImg { 
+       width: 100%;
+       margin-left: 10px; 
+    }
+
+    .combatImg {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 15px; 
+    }
+
+    .text {
+        float: right;
+    }
+
+    .carousel .thumb {
+       display: none;
+    }
+    
+}

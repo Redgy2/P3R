@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "MC",
+        "age": 16,
+        "affiliation": "SEES",
+        "school": "Gekkoukan High School",
+        "persona": "Orpheus",
+        "image": "/src/component/Images/mc1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Yukari Takeba",
+        "age": 16,
+        "affiliation": "SEES",
+        "school": "Gekkoukan High School",
+        "persona": ["Io, Isis"],
+        "image": "/src/component/Images/yuka1.webp"
+    },
+    {
+        "id": 3,
+        "name": "Junpei Iori",
+        "age": 16,
+        "affiliation": "SEES",
+        "school": "Gekkoukan High School",
+        "persona": ["Hermes, Trismegistus"],
+        "image": "/src/component/Images/junpei1.webp"
+    },
+    {
+        "id": 4,
+        "name": "Akihiko Sanada",
+        "age": 17,
+        "affiliation": "SEES",
+        "school": "Gekkoukan High School",
+        "persona": ["Polydeuces, Caesar"],
+        "image": "/src/component/Images/aki1.webp"
+    },
+    {
+        "id": 5,
+        "name": "Mitsuru Kirijo",
+        "age": 17,
+        "affiliation": "SEES",
+        "school": "Gekkoukan High School",
+        "persona": ["Penthesilea, Artemisia"],
+        "image": "/src/component/Images/mitsuru1.webp"
+    },
+    {
+        "id": 6,
+        "name": "Fuuka Yamagishi",
+        "age": 16,
+        "affiliation": "SEES",
+        "school": "Gekkoukan High School",
+        "persona": ["Lucia, Juno"],
+        "image": "/src/component/Images/fuuka1.webp"
+    },
+    {
+        "id": 7,
+        "name": "Koromaru",
+        "age": "n/a",
+        "affiliation": "SEES",
+        "school": "n/a",
+        "persona": "Cerberus",
+        "image": "/src/component/Images/koro1.webp"
+    },
+    {
+        "id": 8,
+        "name": "Aigis",
+        "age": 9,
+        "affiliation": "SEES",
+        "school": "Gekkoukan High School",
+        "persona": ["Palladion, Athena"],
+        "image": "/src/component/Images/aigis1.webp"
+    },
+    {
+        "id": 9,
+        "name": "Ken Amada",
+        "age": 10,
+        "affiliation": "SEES",
+        "school": "Elementary School",
+        "persona": ["Nemesis, Kala-Nemi"],
+        "image": "/src/component/Images/ken1.webp"
+    },
+    {
+        "id": 10,
+        "name": "Shinjiro Aragaki",
+        "age": 17,
+        "affiliation": "SEES",
+        "school": "Gekkoukan High School",
+        "persona": "Castor",
+        "image": "/src/component/Images/shinji1.webp"
+    }
+    
+]
